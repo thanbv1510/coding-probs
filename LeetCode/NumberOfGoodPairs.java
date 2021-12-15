@@ -1,7 +1,10 @@
+import java.util.HashMap;
+import java.util.Map;
+
 /**
  * https://leetcode.com/problems/number-of-good-pairs/
  */
-class Solution {
+class NumberOfGoodPairs {
     public int numIdenticalPairs(int[] nums) {
         Map<Integer, Integer> data = new HashMap<>();
 
@@ -13,7 +16,7 @@ class Solution {
                 total += orDefault;
             }
 
-            data.put(nums[i], ++ orDefault);
+            data.put(nums[i], ++orDefault);
         }
 
         return total;
