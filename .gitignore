@@ -2,3 +2,9 @@
 .vscode/
 *.iml
 out/
+
+# Clion
+CMakeLists.txt
+cmake-build-debug
+
+coding-probs.iml
